@@ -6,6 +6,13 @@ import httpx
 import json
 import asyncio
 import base64
+import os
+
+# Debug: Print environment
+print("=" * 50)
+print("🔍 Environment Variables:")
+print(f"DEEPSEEK_API_KEY: {os.getenv('DEEPSEEK_API_KEY', 'NOT SET')[:20]}...")
+print("=" * 50)
 
 from config import DEEPSEEK_API_KEY, DEEPSEEK_API_URL, DEEPSEEK_MODEL
 from prompts import get_planner_prompt
