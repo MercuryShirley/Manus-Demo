@@ -1,9 +1,6 @@
 {
   "buildCommand": "pip install -r backend/requirements.txt",
   "outputDirectory": "frontend",
-  "env": {
-    "DEEPSEEK_API_KEY": "@deepseek_api_key"
-  },
   "functions": {
     "backend/api/index.py": {
       "runtime": "python3.11",
