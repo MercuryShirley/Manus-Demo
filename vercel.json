@@ -1,12 +1,6 @@
 {
   "buildCommand": "pip install -r backend/requirements.txt",
   "outputDirectory": "frontend",
-  "functions": {
-    "backend/api/index.py": {
-      "runtime": "python3.11",
-      "maxDuration": 60
-    }
-  },
   "rewrites": [
     {
       "source": "/api/(.*)",
