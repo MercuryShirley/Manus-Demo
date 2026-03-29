@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sendBtn = document.getElementById('sendBtn');
 
     // Backend API URL
-    const API_URL = 'http://localhost:8000/chat/stream';
+    const API_URL = 'http://127.0.0.1:8000/chat/stream';
 
     // Function to create a message element
     function createMessageElement(isUser = false) {
